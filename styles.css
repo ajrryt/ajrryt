@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('background.png');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    color: #4E1C00;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 115vh;
+}
+
+.logo {
+    width: 75px;
+    margin-bottom: -25px;
+    z-index: 2;
+}
+
+.form-container {
+    background-color: #EAE7DB;
+    padding: 20px;
+    border-radius: 22.5px;
+    border: 3px solid #4E1C00;
+    text-align: center;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.middle-gif {
+    margin: 15px 0;
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button-group button {
+    background-color: #EAE7DB;
+    border: 3.75px solid #4E1C00;
+    border-radius: 10px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-weight: bold; /* This makes the text bold */
+}
+
+.button-rr {
+    background-color: #4E1C00;
+    color: #EAE7DB;
+    padding: 10px 100px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.button-rr:hover {
+    background-color: #3b1600;
+}
+
+.credits {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    color: #1c1c1c; /* or another color that contrasts with your background */
+    font-size: 14px; /* Adjust the size as needed */
+    font-family: Arial, sans-serif;
+}
